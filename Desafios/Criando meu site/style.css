@@ -5,70 +5,21 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
-img.formatar {
-    
-    width: 80px; /* you can use % */
-    height: auto;
-}
-
-
-img.projeto{
-    border: 10px 10px 10px;
-    width: 100px; /* you can use % */
-    height: 100px;
-}
-
-
 header{
-    border-radius: 10px;
+
+    background-color: #053b5017;
     text-align: center;
+    padding:   1% 0%;
+
+}
+
+
+img .perfil{
+    width: 540px; 
+    height: 10px;
+
+}
+main{
     padding: 1px;
-    margin: 10px;
-    background-color: #176C8D;
-}
-
-nav > a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 1.5em;
-}
-nav > a:hover {
-    color: white;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-#sobre{
-
-    border-radius: 10px 30px;
-    background-color: #176C8D;
-    padding: 0px;
-    margin: 10px;
-    text-align: center;
-}
-
-#sobre:hover{
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459);
-}
-
-#sobre p{
-    margin: 10px;
-    color: rgb(0, 0, 0);
-}
-
-#sobre p:hover{
-    justify-items: center;
-    color: blanchedalmond;
-    font-weight: bold;
-}
-
-#projeto{
-    border-radius: 10px 30px;
-    text-align: center;
-    margin: 10px;
-    background-color:#176C8D;
-}
-
-#projeto .projeto:hover{
-    width: auto; /* you can use % */
-    height: 500px;
+    margin: 19px;
 }
